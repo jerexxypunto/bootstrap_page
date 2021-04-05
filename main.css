@@ -1,0 +1,85 @@
+body.columnas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+body.columnas > .row > *{
+    background-color: tomato;
+    box-shadow: 0 0 0 2px #fff;
+}
+
+body.columnas .row{
+    min-height: 100px;
+    box-shadow: 0 0 0 2px #fff;
+}
+
+.desafio2 .row > *{
+    background-color: teal;
+    min-height: 100px;    
+}
+.desafio3 > .row > div{
+    background-color: #fff;
+    min-height: 100px;    
+}
+
+.desafio3 .row div .row div {
+    background-color: red;
+}
+
+footer a{
+    color: #fff;
+}
+main .carousel-inner img{
+    height: 100vh;
+    object-fit: cover;
+}
+
+.index main{
+    position: relative;
+}
+.index main .overlay-contain{
+    position: absolute;
+    z-index: 10;
+    height: 60vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.index main .overlay{
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    height: 100%;
+}
+
+.index .container-fluid img{
+    width: 100%;
+    max-height:450px;
+    object-fit: cover;
+    display: block;
+}
+
+.bg-dark p {
+    color: white;
+}
+
+.index{
+    position: relative;
+}
+
+.index .info-contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+}
+.index .info-contacto > *{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
